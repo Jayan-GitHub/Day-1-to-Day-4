@@ -1,0 +1,286 @@
+VS-Code [HTML-Syntax]
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAYAN</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <header>The King</header>
+    <footer>The end</footer>
+    
+    <h1>JAYAN</h1>
+    <h2>JAYAN</h2>
+    <h3>JAYAN</h3>
+
+    <div> vjhuih</div>
+
+    
+    <p1>The oldest classical British and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common. The first way to divide sentences into groups was the original paragraphos, similar to an underscore at the beginning of the new group.[1] The Greek parágraphos evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline between sentences. The hedera leaf (e.g. ☙) has also been used in the same way....</p>
+    <p2>The oldest classical British and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common. The first way to divide sentences into groups was the original paragraphos, similar to an underscore at the beginning of the new group.[1] The Greek parágraphos evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline between sentences. The hedera leaf (e.g. ☙) has also been used in the same way..</p2>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+GUVI-IDE [SYNTAX]
+
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+  
+// var a=+userInput[0];
+// var b=+userInput[1];
+// console.log(a);
+// console.log(b);
+
+
+// var i;
+// for (i=1;i<=10;i++){
+// console.log(2*i);
+
+
+// var a=userInput*5;
+// for (i=1;i<=10;i++){
+// console.log(a*2);
+// }
+
+
+-----------------------------------------------------------------------------------------------------
+// Day 3 :
+
+
+
+// var a= (50+50+50)+"guvi"+(10+20+30);
+// console.log(typeof(a));
+
+
+// concartant :
+// var a="guvi";
+// var b="geek";
+// console.log(a+b);
+
+
+// string to number (or) [array to number also] :
+// var a=userInput[0].split("").map(Number);
+// var b=userInput[1];
+// console.log(a);
+// console.log(b);
+
+
+// var a=20
+// var b=2
+// console.log(a*b)
+
+
+// For Loop :
+// var a=userInput[0]+userInput[1]+userInput[2]+userInput[3].split("");
+// for (var i=0;i<a.length;i++){
+//     console.log(a[i]);
+// }
+
+
+// Splice method : [Replace and Insert] :  Dought*
+// var arr=['Jan','march','april','June'];
+// arr.splice(3,3,"Feb");
+// console.log(arr);
+
+
+// Objects : Total [2 methods] :
+// Method [Dot] : 1 
+// var obj={
+//     name:"jayan",
+//     age:24,
+//     DOB:1998,
+    
+// };
+// console.log(obj.DOB);
+
+// Method [Box] : 2
+// var obj={
+//     name:"jayan",
+//     age:24,
+//     DOB:1998,
+    
+// };
+// console.log(obj["age"]);
+
+// How to add Obj :
+// var obj={
+//     // name:"jayan",
+//     // age:24,
+//     // DOB:1998,
+    
+// };
+// add type :
+// obj.email="jai@gmail.com"
+// obj.phone=9874563211
+// obj.id=545665451
+
+// add and category type :
+// obj.category={gender:"male"}
+// obj.category={language:"English,Tamil"}
+// console.log(obj.category.language);
+
+
+// For in Loop
+
+// continueeee in day 3 laa 2:15:00 too start here....
+
+
+});
+
+-----------------------------------------------------------------------------------------------------
+Day-4
+
+notes:
+functions:
+
+functions group of statements
+
+why functions?
+
+functions makes the code reusable .
+we can declare it once and use it multiple times .
+functions makes the program easier as each small task is divide into sa functions.
+incresases readability.
+
+types of javascript functions:
+
+named or normal functions.
+Anonymous functions..
+IIFE functions
+Arrow functions
+
+named function:
+syntax: function functionname(parameters){return} functionname(arguments) or console.log(functionname())
+
+return keyword:
+it means the program gets stopped
+we cant use return keyword outside the function.
+
+Anonymous function:we sholud declare the function inside a variable name .
+syntax: variable variablename = function (){return()}
+
+IIFE:
+immediately invoked function expression.
+no return keyword.
+less consumption of memory.
+syntax: (function (){no return}) ();
+we use this rarely.
+here function name is optional.
+
+Arrow function:
+ES6 = ecmascript6(latest version)
+syntax: variable variablename = () => {};
+we can or we wont
+code redundancy
+
+script:
+//named function without parameters:
+
+// function day() {
+//     return ("hello world!")
+// }
+// //day(); // method to call a function
+// console.log(day());
+
+//  console.log("guvi")
+
+//named function with parameters:
+ 
+// function add(a,b,c) {
+//     // console.log("print");
+//     return ((a+b)*(c-b));
+   
+// }
+// console.log(add(3,4,5));
+
+// add(30,40);
+
+// function math(a,b,c,d){
+//     return((a+b)-(c+d));
+// }
+// console.log(math(6,7,2,3));
+
+// function  mul(a,b,c,d){
+//     return (a*b*c*d);
+
+// }
+// console.log(mul(3,5,5,4));
+
+// function mul(a,b,c,d)
+// {
+// return(a*b*c*d);
+
+// }
+// console.log(mul(2,3,4,5))
+
+//Anonymous function:
+
+// var num = function (a,b,c) {
+    
+//         return ((a+b)*(c-b));
+       
+//     }
+//     console.log(num(30,14,5));
+
+//IIFE function:'
+
+// (function area (r){
+//     // return "hello"
+//     console.log(3.14*r*r);
+// })
+// (5);
+    
+// (function calculate (r,s,d){
+//     //     // return "hello"
+//         console.log(r+s-d);
+//     })
+// (67,80,10);
+        
+// var res = (a,b) => {
+//     return (a+b);
+// }
+// console.log(res(2,3));
+
+// var result = () => "hello B38 students";
+// console.log(result());
+
+//find the average of the marks of 5 students?
+//u can use the array as an argument
+
+var marks = [40, 50, 0, 25, 10];
+
+// let sum = 0;
+
+// for (let mark of marks) {
+//     sum = sum + mark;
+// }
+//  let avg = sum / marks.length;
+
+//  console.log(avg);
+
+var getAverage = function (marks) {
+
+    let sum = 0;
+
+for (let mark of marks) {
+    sum = sum + mark;
+}
+ let avg = sum / marks.length;
+
+return avg;
+}
+console.log(getAverage([40, 50, 0, 25, 10]));
